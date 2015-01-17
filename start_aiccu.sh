@@ -1,5 +1,7 @@
 #!/bin/bash
 
+[ -e /etc/aiccu.env ] && source /etc/aiccu.env
+
 CONF=/etc/aiccu.conf
 
 if [ -n "$AICCU_USERNAME" ]; then
